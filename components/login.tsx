@@ -1,6 +1,5 @@
 "use client";
 
-import { LogoIcon } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -14,7 +13,7 @@ export default function LoginPage() {
         <div className="p-6">
           <div>
             <Link href="/" aria-label="go home">
-              <LogoIcon />
+              Laptop store
             </Link>
             <h1 className="mb-1 mt-4 text-xl font-semibold">
               Sign In to Tailark
